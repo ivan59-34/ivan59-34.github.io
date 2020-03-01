@@ -173,6 +173,7 @@ body{
 #box3{
 	height: 1000px;
 	background-color: #aaa;
+	text-align: center;
 }
 .box3-card{
 	position: absolute;
@@ -180,12 +181,7 @@ body{
 	width: 400px;
 	top: 50px;
 	background-color: #222;
-}
-#box3-card1{
-	right: 51%;
-}
-#box3-card2{
-	left: 51%;
+	display: inline-block;
 }
 .box3-card-title{
 	color: #fff;
@@ -469,8 +465,6 @@ display: none;
 #box6 table th:hover img{
 	transform: scale(1.5);
 }
-@media{
-	.box6{
-		width: lox;
-	}
+@media(max-width: ){
+
 }
