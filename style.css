@@ -311,7 +311,7 @@ body{
 	width: 250px;
 	padding: 10px;
 	top: 50%;
-	left: 50%;
+	left: 75%;
 	text-align: right;
 	transform: translate(-50%,-50%) scaleX(0);
 	transition-duration: 200ms;
